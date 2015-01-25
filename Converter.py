@@ -1,7 +1,7 @@
 '''
 Made by:
-Luis Arzola
-David Cabello
+
+Luis Arzola - A01186956
 '''
 
 import re
