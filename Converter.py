@@ -14,7 +14,7 @@ inve = {"0":0,"1":1,"2":2,"3":3,"4":4,"5":5,"6":6,"7":7,"8":8,"9":9,"a":10,"b":1
 
 def tonew(num,nbase):
     tot = ""
-    while int(num) > int(nbase):
+    while int(num) >= int(nbase):
         tot += conv[int(int(num) % int(nbase))]
         num = int(num) // int(nbase)
     tot += str(num)
